@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nataly Nogueira | Dev Web</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h2>Nataly Nogueira</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="index.html">Sobre</a></li>
+                <li><a href="index.html">Projetos</a></li>
+                <li><a href="index.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="projeto-detalhes">
+        <h2>Cardapio Digital</h2>
+        <div class="descricao">
+            <img src="img/cardapiodigitalsimples-v1.png" alt="">
+            <p>
+                Este projeto é a primeira versão de um cardápio digital, criado com o
+                objetivo de simular como um cardápio físico pode ser transformado em
+                uma experiência online para os clientes. A versão inicial apresenta a
+                estrutura básica da interface, com foco em clareza e organização das
+                informações para que qualquer usuário possa navegar de forma simples
+                e intuitiva.
+            </p>
+        </div>
+
+        <div class="funcionamento">
+            <h2>Funcionamento</h2>
+            <video width="640" height="360" controls poster="img/cardapiodigitalsimples-v1.png">
+                <source src="cardapiodigitalsimples-v1.mp4" type="video/mp4" />
+                O seu navegador não suporta a tag de vídeo
+            </video>
+            <p>
+                O cardápio digital funciona como uma página web acessível
+                através de um link ou QR code. Os usuários podem visualizar as
+                categorias de pratos, descrições e preços de forma clara. A navegação
+                é facilitada por uma estrutura organizada, permitindo que os clientes
+                encontrem rapidamente o que desejam. Esta versão inicial não inclui
+                funcionalidades avançadas como pedidos online ou integração com
+                sistemas de pagamento, mas serve como uma base sólida para futuras
+                melhorias.
+            </p>
+        </div>
+
+        <div class="creditos">
+            <h2>Créditos e Avisos</h2>
+            <ul>
+                <li>Nome da empresa é fictícia</li>
+                <li>Imagens utilizadas do Pinterest</li>
+            </ul>
+        </div>
+
+        <div class="versoes">
+            <h2>Versões do Projeto</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Versão</th>
+                        <th>Tecnologia</th>
+                        <th>Demo</th>
+                        <th>GitHub</th>
+                        <th>Instagram</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1.0</td>
+                        <td>
+                            <ul>
+                                <li class="bdg-html">Html</li>
+                                <li class="bdg-css">Css</li>
+                            </ul>
+                        </td>
+                        <td><a href="https://cardapiodigitalv1.netlify.app" target="_blank" rel="noopener">Acessar Demo</a></td>
+                        <td><a href="https://github.com/NatalyCNogueira/Cardapio-Digital" target="_blank" rel="noopener">Acessar Repositório</a></td>
+                        <td><a href="https://www.instagram.com/reel/DN6pG5OgIpp/?igsh=cDE5N2NsMmVnMmVh" target="_blank" rel="noopener">Acessar Instagram</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="meuAlerta" class="alerta" role="dialog" aria-modal="true" aria-labelledby="alertaTitulo">
+            <div class="conteudo">
+                <h3 id="alertaTitulo">Atenção 🚨</h3>
+                <p>O acesso ainda não está disponível.</p>
+                <button type="button" onclick="fecharAlerta()">Fechar</button>
+            </div>
+        </div>
+
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>

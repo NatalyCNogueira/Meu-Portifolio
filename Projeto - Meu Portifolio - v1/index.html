@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nataly Nogueira | Dev Web</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h2>Nataly Nogueira</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h1>Olá, eu sou Nataly Nogueira</h1>
+        <p>
+            Atualmente uso o desenvolvimento web como forma de estudo e prática e estou aqui para mostrar a minha evolução.
+        </p>
+    </section>
+
+    <section id="projetos">
+        <h2>Meus Projetos</h2>
+        <div class="projetos-lista">
+            <div class="projeto">
+                <img src="img/meuportifolio-v1.png" alt="">
+                <h3>Meu Portifólio</h3>
+                <p class="descricao">
+                    Portifólio criado para mostrar meus projetos e habilidades.
+                </p>
+                <div class="tecnologias">
+                    <ul>
+                        <li class="bdg-html">Html</li>
+                        <li class="bdg-css">Css</li>
+                        <li class="bdg-js">JavaScript</li>
+                    </ul>
+                </div>
+                <a href="meuportifolio-v1.html">Ver projeto</a>
+            </div>
+            <div class="projeto">
+                <img src="img/cardapiodigitalsimples-v1.png" alt="">
+                <h3>Cardápio Digital</h3>
+                <p class="descricao">
+                    Cardápio digital criado para aperfeiçoar as tecnologias
+                    e para facilitar ao usuário.
+                </p>
+                <div class="tecnologias">
+                    <ul>
+                        <li class="bdg-html">Html</li>
+                        <li class="bdg-css">Css</li>
+                    </ul>
+                </div>
+                <a href="cardapiosimples-v1.html">Ver projeto</a>
+            </div>
+            <div class="projeto">
+                <img src="img/sem-imagem.png" alt="">
+                <h3>Projeto</h3>
+                <p class="descricao">
+                    Essa é a descrição do projeto,<br>
+                    ainda não tem aqui nenhum.
+                </p>
+                <div class="tecnologias">
+                    <ul>
+                        <li class="bdg-html">Html</li>
+                        <li class="bdg-css">Css</li>
+                    </ul>
+                </div>
+                <a href="" onclick="avisoPublicacao(event)" class="link-falso">Ver projeto</a>
+            </div>
+            <div class="projeto">
+                <img src="img/sem-imagem.png" alt="">
+                <h3>Projeto</h3>
+                <p class="descricao">
+                    Essa é a descrição do projeto,<br>
+                    ainda não tem aqui nenhum.
+                </p>
+                <div class="tecnologias">
+                    <ul>
+                        <li class="bdg-html">Html</li>
+                        <li class="bdg-css">Css</li>
+                    </ul>
+                </div>
+                <a href="" onclick="avisoPublicacao(event)" class="link-falso">Ver projeto</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Onde você pode me encontrar?</h2>
+        <div class="contato-lista">
+            <a href="https://instagram.com/natalycnogueira.dev" target="_blank" rel="noopener" class="contato-item" aria-label="Abrir Instagram">
+            <div class="contato-conteudo">
+                <img src="img/instagram.png" alt="" />
+                <p>@natalycnogueira.dev</p>
+            </div>
+            </a>
+            <a href="https://github.com/NatalyCNogueira" target="_blank" rel="noopener" class="contato-item" aria-label="Abrir GitHub">
+            <div class="contato-conteudo">
+                <img src="img/github.png" alt="" />
+                <p>Nataly Nogueira</p>
+            </div>
+            </a>
+        </div>
+    </section>
+
+    <div id="meuAlerta" class="alerta" role="dialog" aria-modal="true" aria-labelledby="alertaTitulo">
+        <div class="conteudo">
+            <h3 id="alertaTitulo">Atenção 🚨</h3>
+            <p>O acesso ainda não está disponível.</p>
+            <button type="button" onclick="fecharAlerta()">Fechar</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nataly Nogueira | Dev Web</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h2>Nataly Nogueira</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="index.html">Sobre</a></li>
+                <li><a href="index.html">Projetos</a></li>
+                <li><a href="index.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="projeto-detalhes">
+        <h2>Meu Portifólio</h2>
+        <div class="descricao">
+            <img src="img/meuportifolio-v1.png" alt="">
+            <p>
+                Este projeto é um portfólio pessoal desenvolvido para apresentar meus
+                projetos, habilidades e experiências na área de desenvolvimento web.
+                O portfólio serve como uma vitrine destacando minhas competências
+                técnicas e criativas. A estrutura do site é simples e intuitiva,
+                facilitando a navegação e o acesso às informações relevantes sobre
+                meu trabalho.
+            </p>
+        </div>
+
+        <div class="funcionamento">
+            <h2>Funcionamento</h2>
+            <video width="640" height="360" controls poster="img/meuportifolio-v1.png">
+                <source src="cardapiodigitalsimples-v1.mp4" type="video/mp4" />
+                O seu navegador não suporta a tag de vídeo
+            </video>
+            <p>
+                O portfólio funciona como uma página web acessível através de um
+                link. Os visitantes podem navegar pelas diferentes seções do site,
+                incluindo uma introdução sobre mim, uma galeria de projetos com
+                descrições detalhadas e as tecnologias utilizadas, além de informações
+                de contato. A navegação é facilitada por um menu claro e organizado,
+                permitindo que os usuários encontrem rapidamente o que procuram.
+                Embora esta versão inicial não inclua funcionalidades avançadas como
+                blogs ou até mesmo integração com redes sociais, ela estabelece uma
+                base sólida para futuras melhorias.
+            </p>
+            <p class="indentado">
+                Este portfólio é uma ferramenta essencial para apresentar meus projetos
+                e habilidades de forma organizada e visualmente atraente, destacando
+                minha trajetória e competências no desenvolvimento web.
+            </p>
+        </div>
+
+        <div class="creditos">
+            <h2>Créditos e Avisos</h2>
+            <ul>
+                <li>Icones utilizados do site Flaticon</li>
+            </ul>
+        </div>
+
+        <div class="versoes">
+            <h2>Versões do Projeto</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Versão</th>
+                        <th>Tecnologia</th>
+                        <th>Demo</th>
+                        <th>GitHub</th>
+                        <th>Instagram</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1.0</td>
+                        <td>
+                            <ul>
+                                <li class="bdg-html">Html</li>
+                                <li class="bdg-css">Css</li>
+                                <li class="bdg-js">JavaScript</li>
+                            </ul>
+                        </td>
+                        <td><a href="" onclick="avisoPublicacao(event)" class="link-falso">Acessar Demo</a></td>
+                        <td><a href="" onclick="avisoPublicacao(event)" class="link-falso">Acessar Repositório</a></td>
+                        <td><a href="https://www.instagram.com/reel/DN6pG5OgIpp/?igsh=cDE5N2NsMmVnMmVh" target="_blank" rel="noopener">Acessar Instagram</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="meuAlerta" class="alerta" role="dialog" aria-modal="true" aria-labelledby="alertaTitulo">
+            <div class="conteudo">
+                <h3 id="alertaTitulo">Atenção 🚨</h3>
+                <p>O acesso ainda não está disponível.</p>
+                <button type="button" onclick="fecharAlerta()">Fechar</button>
+            </div>
+        </div>
+
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
